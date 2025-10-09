@@ -25,8 +25,8 @@ This repository is for our MICCAI 2025 paper '[Sequence-Independent Continual Te
    cd Single_domain
    python single_domain_train.py --record True --save_freq 200 --background False --network 'Unet'
    ```
-Then extract the feature space by running command:
-  ```shell
-  python source_std_mean.py --network "Unet" --seed 1 --ckpt "./model/step_3600_dice_0.6668.pth"
-  ```
+   Then extract the feature space by running command:
+   ```shell
+   python source_std_mean.py --network "Unet" --seed 1 --ckpt "./model/step_3600_dice_0.6668.pth"
+   ```
 
