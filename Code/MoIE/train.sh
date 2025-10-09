@@ -1,0 +1,2 @@
+python regular_sequence.py --network "Unet"  --warmup_epoch 1 --warm_up_lr 1e-3 --adapt_lr 5e-4 --initial_expert_num 2 --max_expert_num 8 --select_num 8 --max_warmup_expert 4 --seed 1 --ckpt "./ckpt/BinRushed/step_3600_dice_0.6668.pth"
+python stochastice_squence.py --network "Unet" --warmup_epoch 5 --warm_up_lr 1e-3 --adapt_lr 5e-3 --initial_expert_num 2 --max_expert_num 8 --select_num 8 --max_warmup_expert 4 --seed 1 --ckpt "./ckpt/BinRushed/step_3600_dice_0.6668.pth"
